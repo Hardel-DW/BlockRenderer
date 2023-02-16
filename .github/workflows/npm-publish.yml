@@ -16,8 +16,8 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
           scope: '@Hardel-DW'
       - name: Install dependencies
-      - run: pnpm install
+        run: npm ci
       - name: Build and publish
-      - run: pnpm publish
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
