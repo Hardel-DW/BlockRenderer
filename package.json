@@ -1,9 +1,5 @@
 {
-  "name": "@hardel-dw/block-renderer",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/Hardel-DW"
-  },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple block renderer",
   "scripts": {
     "rollup": "rollup -c"
@@ -17,6 +13,7 @@
     "minecraft"
   ],
   "author": "Hardel",
+  "private": false,
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.1",
