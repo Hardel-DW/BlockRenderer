@@ -9,7 +9,6 @@ on:
 
 jobs:
   publish-npm:
-    needs: Publish on NPM
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
